@@ -1,0 +1,178 @@
+.d-container {
+  background-color: #fffbf7;
+  height: 35rem;
+  width: 100%;
+  margin-top: 5rem;
+  display: flex;
+}
+.mobile-photo {
+  height: 80%;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 3rem;
+}
+
+.download-data {
+  width: 50%;
+  margin-top: 3rem;
+}
+
+.download-data h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.download-data p {
+  font-family: "helvetica";
+  width: 60%;
+  color: #444;
+}
+.download-data label {
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "helvetica";
+}
+.download-data input {
+  height: 2.8rem;
+  width: 15rem;
+  border-radius: 5px;
+  border: 2px solid rgb(224, 221, 200);
+}
+
+.d-button {
+  background-color: #ef4f5f;
+  color: white;
+  height: 3rem;
+  border: none;
+  border-radius: 5px;
+  width: 9rem;
+  font-size: medium;
+  margin-left: 5px;
+}
+
+.download-data img {
+  height: 2.5rem;
+  width: 9rem;
+}
+
+.img-two {
+  margin-left: 1.5rem;
+}
+
+/* Large Screens	Laptops and Desktops	1025px - 1440px*/
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .d-container {
+    height: 35rem;
+    margin-top: 1rem;
+  }
+  .mobile-photo img {
+    height: 90%;
+    width: auto;
+    margin-left: 1rem;
+  }
+
+  .d-button {
+    height: 3rem;
+    width: 8rem;
+    padding: 5px;
+  }
+}
+
+/* Medium Screens	Tablets	769px - 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .d-container {
+    height: 30rem;
+    margin-top: 1rem;
+  }
+  .mobile-photo img {
+    height: 90%;
+    width: auto;
+    margin-left: 1rem;
+  }
+  .d-button {
+    height: 3rem;
+    width: 9rem;
+    font-size: medium;
+    margin-left: 5rem;
+    margin-top: 10px;
+  }
+}
+/* Small Screens	Phones (Landscape)	481px - 768px */
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .d-container {
+    height: 22rem;
+    margin-top: 1rem;
+  }
+
+  .mobile-photo img {
+    height: 80%;
+    width: auto;
+    margin-left: 3rem;
+  }
+  .download-data h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .download-data p {
+    width: 100%;
+    font-size: small;
+  }
+  .download-data input {
+    height: 1.8rem;
+    width: 10rem;
+  }
+  .d-button {
+    height: 2rem;
+    width: 7rem;
+    font-size: small;
+    margin-left: 4rem;
+    margin-top: 5px;
+  }
+  .download-data img {
+    height: 2rem;
+    width: auto;
+    margin-left: 4rem;
+  }
+  .img-two {
+    margin-left: 1rem;
+  }
+}
+
+/* Extra Small Screens	Phones (Portrait)	320px - 480px */
+@media (min-width: 320px) and (max-width: 480px) {
+  .mobile-photo img {
+    height: 90%;
+    width: auto;
+  }
+  .download-data h1 {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  .download-data p {
+    width: 100%;
+    font-size: 12px;
+  }
+  .download-data input {
+    height: 1.5rem;
+    width: 9rem;
+  }
+  .d-button {
+    height: 1.5rem;
+    width: 7rem;
+    font-size: small;
+    margin-left: 1rem;
+    margin-top: 5px;
+  }
+  .download-data img {
+    height: 1.5rem;
+    width: auto;
+    margin-left: 2rem;
+    display: inline;
+  }
+  .d-container {
+    height: 18rem;
+    margin-top: 1rem;
+  }
+}

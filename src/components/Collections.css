@@ -1,0 +1,114 @@
+.collection-heading {
+  font-size: 2.5rem;
+  font-weight: 520;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 13rem;
+  margin-top: 4rem;
+}
+.collection-container {
+  display: flex;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-left: 13rem;
+  margin-top: 10px;
+  color: rgb(76, 75, 75);
+}
+
+.collection-text {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: rgb(76, 75, 75);
+}
+
+.collection-right {
+  margin-left: 8rem;
+  color: rgb(230, 97, 97);
+}
+
+/* Large Screens	Laptops and Desktops	1025px - 1440px*/
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .collection-heading {
+    margin-left: 5rem;
+  }
+
+  .collection-container {
+    margin-left: 5rem;
+  }
+
+  .collection-right {
+    margin-left: 4rem;
+    font-size: 17px;
+  }
+
+  .collection-text {
+    width: 60%;
+  }
+  .collections-cards {
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin: 30px 5rem;
+  }
+}
+
+/* Medium Screens	Tablets	769px - 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .collection-heading {
+    font-size: 2.3rem;
+    margin-left: 3rem;
+  }
+  .collection-text {
+    font-size: 16px;
+  }
+
+  .collection-container {
+    margin-left: 3rem;
+  }
+
+  .collection-right {
+    font-size: 15px;
+  }
+
+  .collections-cards {
+    flex-wrap: nowrap;
+  }
+}
+
+/* Small Screens	Phones (Landscape)	481px - 768px */
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .collection-heading {
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  .collection-right {
+    font-size: 13px;
+    margin-left: 1.8rem;
+  }
+
+  .collection-container {
+    margin-left: 2rem;
+  }
+  .collection-text {
+    font-size: 15px;
+  }
+}
+
+/* Extra Small Screens	Phones (Portrait)	320px - 480px */
+@media (min-width: 320px) and (max-width: 480px) {
+  .collection-heading {
+    margin-left: 1rem;
+    font-size: 2.8rem;
+  }
+  .collection-container {
+    margin-left: 1rem;
+  }
+  .collection-text {
+    font-size: 12px;
+  }
+  .collection-right {
+    margin-left: 1rem;
+    font-size: 10px;
+  }
+}

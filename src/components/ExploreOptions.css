@@ -1,0 +1,68 @@
+.explore-options {
+  width: 70%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.explore-heading {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  font-weight: 200;
+  color: #333;
+  text-align: start;
+}
+
+.options-section {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+
+.options-title {
+  padding: 25px 20px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.options-content {
+  padding: 15px 20px;
+  background: #fff;
+  color: #555;
+  display: none;
+}
+
+/* Large Screens	Laptops and Desktops	1025px - 1440px*/
+@media (min-width: 1025px) and (max-width: 1440px) {
+}
+
+/* Medium Screens	Tablets	769px - 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .options-title {
+    padding: 10px 10px;
+    font-size: 1rem;
+  }
+}
+
+/* Small Screens	Phones (Landscape)	481px - 768px */
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .explore-heading {
+    font-size: 1.8rem;
+  }
+  .options-title {
+    padding: 10px 10px;
+    font-size: 1rem;
+  }
+}
+
+/* Extra Small Screens	Phones (Portrait)	320px - 480px */
+@media (min-width: 320px) and (max-width: 480px) {
+  .explore-heading {
+    font-size: 1.2rem;
+  }
+  .options-title {
+    font-size: 0.7rem;
+    padding: 8px 10px;
+  }
+}

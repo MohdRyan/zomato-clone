@@ -1,0 +1,213 @@
+.newpage-nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zomato-img img {
+  height: 4vh;
+  width: auto;
+  margin-right: 3rem;
+  cursor: pointer;
+}
+
+.input-search input {
+  height: 1rem;
+  padding: 1rem 15rem;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.btn-login,
+.btn-signup {
+  height: 3rem;
+  width: 5rem;
+  border: none;
+  margin-left: 0.5rem;
+  background-color: white;
+  color: #696969;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.btns :hover {
+  color: black;
+}
+
+.breadcrumb {
+  list-style: none;
+  display: flex;
+  gap: 0.5rem;
+  font-size: 15px;
+  color: #696969;
+  margin-left: 13rem;
+  margin-top: 2rem;
+}
+.breadcrumb :hover {
+  color: rgb(171, 81, 81);
+}
+
+.bottom-nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 3rem;
+  margin-left: 12rem;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #696969;
+}
+
+.bottom-nav img {
+  height: auto;
+  width: 2rem;
+  object-fit: cover;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #f8f8f8;
+}
+
+.bottom-nav-one {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+.bottom-nav-two {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.bottom-nav-three {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Large Screens	Laptops and Desktops	1025px - 1440px*/
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .newpage-nav-container {
+    margin-top: 1em;
+  }
+  .input-search input {
+    height: 1rem;
+    padding: 0.8rem 5rem;
+  }
+}
+
+/* Medium Screens	Tablets	769px - 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .input-search input {
+    padding: 1rem 6rem;
+  }
+  .btn-login,
+  .btn-signup {
+    width: 5rem;
+    margin-left: 0;
+    font-size: 1rem;
+  }
+
+  .bottom-nav {
+    gap: 2rem;
+    margin-left: 1rem;
+    font-size: 18px;
+  }
+  .bottom-nav-two,
+  .bottom-nav-three {
+    font-size: 18px;
+  }
+  .breadcrumb {
+    gap: 1.3rem;
+    font-size: 16px;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+  }
+}
+
+/* Small Screens	Phones (Landscape)	481px - 768px */
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .zomato-img img {
+    height: 4vh;
+    margin-right: 1rem;
+    margin-left: 0;
+  }
+
+  .input-search input {
+    padding: 0.4rem 0.2rem;
+  }
+  .btn-login,
+  .btn-signup {
+    width: auto;
+    margin-left: 0.4rem;
+    font-size: 0.75rem;
+  }
+  .breadcrumb {
+    gap: 0.5rem;
+    font-size: 12px;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+  }
+  .bottom-nav {
+    gap: 1rem;
+    margin-left: 2rem;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 2rem;
+  }
+  .bottom-nav-one,
+  .bottom-nav-two,
+  .bottom-nav-three {
+    font-size: 16px;
+  }
+
+  .bottom-nav img {
+    width: 2rem;
+    padding: 5px;
+  }
+}
+
+/* Extra Small Screens	Phones (Portrait)	320px - 480px */
+@media (min-width: 320px) and (max-width: 480px) {
+  .zomato-img img {
+    height: 2.5vh;
+    margin-right: 0.5rem;
+    margin-left: 0;
+  }
+
+  .input-search input {
+    padding: 0.2rem;
+  }
+  .btn-login,
+  .btn-signup {
+    width: auto;
+    margin-left: 0.2rem;
+    font-size: 0.65rem;
+  }
+  .breadcrumb {
+    gap: 0.5rem;
+    font-size: 12px;
+    margin-left: 0rem;
+    margin-top: 0.5rem;
+  }
+  .bottom-nav {
+    gap: 0.65rem;
+    margin-left: 0rem;
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+  }
+  .bottom-nav-one,
+  .bottom-nav-two,
+  .bottom-nav-three {
+    font-size: 12px;
+  }
+
+  .bottom-nav img {
+    width: 1.35rem;
+    padding: 2px;
+    margin-left: 0.55rem;
+  }
+}

@@ -1,0 +1,93 @@
+.collections-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.cc-card {
+  position: relative;
+  width: 260px;
+  height: 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+}
+
+.cc-card-overlay {
+  color: white;
+  text-align: left;
+}
+
+.cc-card-title {
+  font-size: 1rem;
+  font-family: "helvetica";
+  color: white;
+  margin-left: 20px;
+  margin-bottom: 0%;
+}
+
+.cc-card-subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  margin-top: 0%;
+}
+
+/* Large Screens	Laptops and Desktops	1025px - 1440px*/
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .collections-cards {
+    flex-wrap: nowrap;
+  }
+  .cc-card {
+    height: 240px;
+    width: 220px;
+  }
+}
+
+/* Medium Screens	Tablets	769px - 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .cc-card {
+    height: 200px;
+    width: 170px;
+  }
+}
+
+/* Small Screens	Phones (Landscape)	481px - 768px */
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .cc-card {
+    height: 100px;
+    width: 100px;
+  }
+
+  .cc-card-title {
+    font-size: small;
+  }
+
+  .cc-card-subtitle {
+    font-size: x-small;
+  }
+}
+
+/* Extra Small Screens	Phones (Portrait)	320px - 480px */
+@media (min-width: 320px) and (max-width: 480px) {
+  .cc-card {
+    height: 120px;
+    width: 120px;
+  }
+  .cc-card-title {
+    font-size: small;
+    color: yellow;
+  }
+  .cc-card-subtitle {
+    font-size: xx-small;
+    color: red;
+  }
+}

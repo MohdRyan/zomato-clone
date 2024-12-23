@@ -1,0 +1,150 @@
+.localities-container {
+    padding: 20px;
+    margin: 20px 12rem;
+    max-width: 1200px;
+  }
+  
+  .localities-heading {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    text-align: left;
+    font-weight: 200;
+  }
+  
+  .highlight {
+    color: black ;
+    font-size: larger;
+  }
+  
+  .localities-grid {
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    
+  }
+  
+  .locality-card {
+    width: 19.7rem;
+    padding: 16px;
+    height: 3rem;
+    border: 1px solid rgb(225, 218, 218);
+    border-radius: 8px;
+    margin: 5px;
+    text-align: left;
+    cursor: pointer;
+  
+    
+   
+  }
+  
+
+  .locality-name {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #120202;
+    font-family: "sans-serif";
+    margin-bottom: 0%;
+    margin-top: 5px;
+   
+  }
+  
+  .locality-places {
+    font-size: 16px;
+    color: #555;
+    margin-top: 5px;
+    font-family: 'helvetica';
+    display: block;
+  }
+
+
+  /* Large Screens	Laptops and Desktops	1025px - 1440px*/
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+  .localities-container {
+   
+    margin: 20px 5rem;
+ 
+}
+.locality-card{
+  width: 14rem;
+  height: 3rem;
+}
+
+}
+
+/* Medium Screens	Tablets	769px - 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .localities-container {
+    
+    margin: 20px 3rem;
+    
+}
+.locality-card{
+  width: 10rem;
+}
+.locality-name{
+  font-size: 1.1rem;
+
+}
+.locality-places{
+  font-size: 14px;
+}
+
+}
+
+/* Small Screens	Phones (Landscape)	481px - 768px */
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+  .localities-container {
+   
+    margin: 20px 1rem;
+    
+}
+.locality-card{
+  width: 10rem;
+  padding: 5px;
+  height: 3rem;
+}
+.locality-name{
+  font-size: medium;
+}
+.locality-places{
+  font-size: small;
+}
+
+}
+
+/* Extra Small Screens	Phones (Portrait)	320px - 480px */
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .localities-container {
+ 
+    margin: 12px 0px;
+    
+}
+.localities-heading {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  
+}
+.locality-card {
+  width: 5.5rem;
+  padding: 15px;
+  height: 2.5rem;
+  border: 1px solid rgb(225, 218, 218);
+  border-radius: 8px;
+  margin: 3px;
+
+}
+
+.locality-name {
+  font-size: 1rem;
+  margin-bottom: 0%;
+  margin-top: 0px;
+}
+.locality-places{
+  font-size: 12px;
+}
+}
