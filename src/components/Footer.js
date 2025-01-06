@@ -4,11 +4,9 @@ import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,
-  faTwitter,
   faLinkedin,
   faGithub,
   faInstagram,
-  faThreads,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { faGlobe, faX } from "@fortawesome/free-solid-svg-icons";
