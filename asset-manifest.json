@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/zomato-clone/static/css/main.4f76ee18.css",
-    "main.js": "/zomato-clone/static/js/main.23809fde.js",
-    "static/js/453.1a9060e7.chunk.js": "/zomato-clone/static/js/453.1a9060e7.chunk.js",
-    "index.html": "/zomato-clone/index.html",
-    "main.4f76ee18.css.map": "/zomato-clone/static/css/main.4f76ee18.css.map",
-    "main.23809fde.js.map": "/zomato-clone/static/js/main.23809fde.js.map",
-    "453.1a9060e7.chunk.js.map": "/zomato-clone/static/js/453.1a9060e7.chunk.js.map"
+    "main.css": "/%3Czomato-clone%3E/static/css/main.4f76ee18.css",
+    "main.js": "/%3Czomato-clone%3E/static/js/main.3ea2cba9.js",
+    "static/js/453.1a9060e7.chunk.js": "/%3Czomato-clone%3E/static/js/453.1a9060e7.chunk.js",
+    "index.html": "/%3Czomato-clone%3E/index.html",
+    "main.4f76ee18.css.map": "/%3Czomato-clone%3E/static/css/main.4f76ee18.css.map",
+    "main.3ea2cba9.js.map": "/%3Czomato-clone%3E/static/js/main.3ea2cba9.js.map",
+    "453.1a9060e7.chunk.js.map": "/%3Czomato-clone%3E/static/js/453.1a9060e7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f76ee18.css",
-    "static/js/main.23809fde.js"
+    "static/js/main.3ea2cba9.js"
   ]
 }
